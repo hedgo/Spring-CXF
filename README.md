@@ -8,8 +8,5 @@ Uruchomienie:
 http://localhost:8080/Spring-CXF/ws/foobar/heeeeeeeeeej
 
 
-Ciekawsze:
-	<jaxrs:server id="fooBarWs" address="/foobar">
-		<jaxrs:serviceBeans>
-			<ref bean="fooBarWsClass" />
-		</jaxrs:serviceBeans>
+Ciekawszy kod:         jaxrs:server id="fooBarWs" address="/foobar"
+		
